@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Антивоєний рух України</title>
+    <!--Reset style--> 
+    <link rel="stylesheet" href="/css/reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!--Header start-->
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/index.html" class="header__logo__link mobile__change">
+                        <img src="/img/icon.png" alt="Антивоєний рух України" class="header__logo__pic">
+                    </a>
+                    <a href="/index.html" class="header__logo__link mobile__image">
+                        <img src="/img/logo.png" alt="Антивоєний рух України" class="header__logo__pic">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="/pages/projects-ua.html" class="header__link">Проекти</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Внесок</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Контакти</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="/index.html" class="header__link">UA</a>
+                            <p>/</p>
+                            <a href="/pages/index-main-en.html" class="header__link">ENG</a>
+                        </li>
+                        
+                            
+                    </ul>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
+                    <div class="footer__social mobile__button">
+                        <a href="" class="footer__social-link">
+                            <img src="/img/fb-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/twt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/tg-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/inst-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/yt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        
+                    </div>
+                </nav>
+                
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Header end-->
+
+
+    <!--modal windows start-->
+
+    <div class="modal" id="modal1">
+        <div class="modal__first scrollbar">
+            <div class="close__button"><span class="close"  onclick="closeModal('modal1')">&times;</span></div>
+            <div class="modal__first__title">
+                <p class="modal__first-title">На що ви б хотіли зробити внесок ?</p>
+            </div>
+            <div class="modal__first__buttons">
+                <input type="radio" id="myCheckbox" name="choice" value="option1">
+                <label for="myCheckbox"  class = "modal__first__button">Лікарня в Бахмуті</label>
+                <input type="radio" id="myCheckbox1" name="choice" value="option1">
+                <label for="myCheckbox1"  class = "modal__first__button">Лікарня в Бахмуті</label>
+                <input type="radio" id="myCheckbox2" name="choice" value="option1">
+                <label for="myCheckbox2"  class = "modal__first__button">Лікарня в Бахмуті</label>
+                <input type="radio" id="myCheckbox3" name="choice" value="option1">
+                <label for="myCheckbox3"  class = "modal__first__button">Лікарня в Бахмуті</label>
+                <input type="radio" id="myCheckbox4" name="choice" value="option1">
+                <label for="myCheckbox4"  class = "modal__first__button">Лікарня в Бахмуті</label>
+
+                
+            </div>  
+            <div class="modal__next-button">
+                <button class="modal__next__button" onclick="openModal('modal2')">Далі</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Second Modal-->
+    <div class="modal" id="modal2">
+        <div class="modal__first scrollbar">
+            <div class="close__button"><span class="close" onclick="closeModal('modal2')">&times;</span></div>
+            
+            <div class="modal__first__buttons">
+                <input type="radio" id="myCheckbox5" name="choice" value="option1">
+                <label for="myCheckbox5" class = "modal__first__button">Кредитна карта</label>
+
+                <input type="radio" id="myCheckbox6" name="choice" value="option1">
+                <label for="myCheckbox6"  class = "modal__first__button">Банківський переказ</label>
+
+                <input type="radio" id="myCheckbox7" name="choice" value="option1">
+                <label for="myCheckbox7" class = "modal__first__button">PayPal</label>
+                
+                
+
+            </div>  
+            <div class="modal__next-button">
+                <button class="modal__next__button" onclick="openModal('modal3')">Далі</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+     <!--Third Modal-->
+     <div class="modal" id="modal3">
+        <div class="modal__first scrollbar">
+            <div class="close__button"><span class="close" onclick="closeModal('modal3')">&times;</span></div>
+            <div class="modal__first__title">
+                <p class="modal__first-title">Виберіть валюту переказу</p>
+            </div>
+            <div class="modal__first__buttons">
+                <input type="radio" id="myCheckbox8" name="choice" value="option1">
+                <label for="myCheckbox8" class = "modal__first__button">(UAH) UKRAINIAN HRYVNA</label>
+
+                <input type="radio" id="myCheckbox9" name="choice" value="option1">
+                <label for="myCheckbox9"  class = "modal__first__button">(USD) US DOLLAR</label>
+
+                <input type="radio" id="myCheckbox10" name="choice" value="option1">
+                <label for="myCheckbox10" class = "modal__first__button">(EU) EURO</label>
+
+            </div>  
+            <div class="modal__next-button">
+                <button class="modal__next__button"  onclick="openModal('modal4')">Далі</button>
+            </div>
+        </div>
+    </div>
+
+     <!--Fourth Modal-->
+    <div class="modal" id="modal4">
+        <div class="modal__first scrollbar ">
+            <div class="close__button"><span class="close" onclick="closeModal('modal4')">&times;</span></div>
+            <div class="card">
+                <div class="modal__bank__card">
+                    <div class="modal__card__numder">
+                        <p class="modal__card__number-txt">
+                            Номер карти
+                        </p>
+                        <form action="" class="number__form">
+                            <fieldset class="number__form-wrap">
+                                <p class="number__form-info"> 
+                                    <input type="number" name="number" class="number__form-field" placeholder="7654 - 7896 - 0987 - 1234">
+                                
+                                </p>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal__card__down">
+                        <div class="modal__term__card">
+                            <p class="modal__card__number-txt">
+                                Термін дії
+                            </p>
+                            <form action="" class="term__form">
+                                <fieldset class="term__form-wrap">
+                                    <p class="term__form-info"> 
+                                        <input type="number" name="term" class="term__form-field" placeholder="MM / YY">
+                                    </p>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="modal__term__card">
+                            <p class="modal__card__number-txt">
+                                CVV
+                            </p>
+                            <form action="" class="term__form">
+                                <fieldset class="term__form-wrap">
+                                    <p class="term__form-info"> 
+                                        <input type="number" name="term" class="term__form-field" placeholder="000">
+                                    </p>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__card__sum">
+                    <div class="modal__card__suma">
+                        <p class="modal__suma__number-txt">
+                            Номер карти
+                        </p>
+                        <div class="modal__form">
+                            <form action="" class="sum__form">
+                                <fieldset class="sum__form-wrap">
+                                    <p class="sum__form-info"> 
+                                        <input type="number" name="sum" class="sum__form-field" placeholder="000">
+                                    
+                                    </p>
+                                </fieldset>
+                            </form>
+                            <div class="modal__card__valut">
+                                <label id="outputs" class="label__valut">Виберіть валюту</label>
+                            </div>
+                                
+                                    
+                                
+                        </div>
+                        <div class="modal__next-button button__sum">
+                            <button class="modal__next__button"  onclick="openModal('modal5')">Далі</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+     <!--fifth Modal-->
+     <div class="modal" id="modal5">
+        <div class="modal__first scrollbar ">
+            <div class="modal__donat__title">
+                <label id="outputs-title" class="modal__donat-title">UAN</label>
+                <span class="closes" onclick="closeModal('modal5')">-</span>
+            </div>
+            <div class="modal__donat_qrcode">
+                <img src="/img/qr.png" alt="QR" class="donat__qrcode">
+                <p class="modal__donat__qrcode-txt">Доступний у гривні у мобільних застосунках: Sense Bank, Асвіобанк, Банк Грант, ПриватБанк, Укргазбанк, izibank, Monobank, Sportbank.</p>
+            </div>
+            <div class="modal_line">
+                <hr>
+            </div>
+            <div class="modal__donat__info">
+                <div class="modal__donat__info-title">Банк </div>
+                <div class="modal__donat__info-text">Національний банк України</div>
+            </div>
+            <div class="modal__donat__info">
+                <div class="modal__donat__info-title">МФО </div>
+                <div class="modal__donat__info-text">40001</div>
+            </div>
+            <div class="modal__donat__info">
+                <div class="modal__donat__info-title">Рахунок № </div>
+                <div class="modal__donat__info-text">UA3233434324324343243243432</div>
+            </div>
+            <div class="modal__donat__info">
+                <div class="modal__donat__info-title">Код ЕДРПоУ </div>
+                <div class="modal__donat__info-text">3236534</div>
+            </div>
+            <div class="modal__donat__info">
+                <div class="modal__donat__info-title">Отримувач </div>
+                <div class="modal__donat__info-text">Національний банк України</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal windows end-->
+
+
+
+    <!--Intro start-->
+
+    <section class="intro">
+        <div class="wrapper">
+            <div class="intro__wrapper">
+                <div class="intro__text">
+                    <p class="intro-txt">МИ – прагнемо миру. Єдиний шлях – це наша перемога та звільнення всіх територій нашої країни. Наш обов’язок – всебічна допомога армії та потерпілим від війни. Долучайтесь до підтримки наших проєктів.</p>
+                </div>
+                <button class="button  button__donation mobile__close" onclick="openModal('modal1')" id="openButton">Зробити внесок</button>
+                <a href="/pages/projects-ua.html" class="mobile__button">
+                    <button class="button  button__donation"  >Зробити внесок</button>
+                </a>
+                
+                <p class="intro__subtext ">Переможемо їх РАЗОМ!</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Intro end-->
+
+    <!--Power start-->
+
+    <section class="power">
+        <div class="wrapper">
+            <div class="power__wrapper">
+                <div class="power__grid">
+                    <div class="freedom">
+                        <h1 class="freedom-txt">
+                            THE <br> POWER <br> OF <br>FREEDOM
+                        </h1>
+                        <h2 class="freedom-subtxt">UKRAINE</h2>
+                    </div>
+                    <div class="deposit">
+                        <p class="deposit-txt">Армія, медицина, постраждалі від війни діти, переселенці – їм всім потрібна наша допомога та підтримка.</p>
+                        <button class="button mobile__close freedom__button" onclick="openModal('modal1')">Зробити внесок</button>
+                        <a href="pages/projects-ua.html" class="mobile__button ">
+                            <button class="button  button__donation freedom__button"  >Зробити внесок</button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Power end-->
+    <!--About start-->
+
+    <section class="about">
+        <div class="wrapper">
+            <div class="about__wrapper">
+                <h3 class="txt-frst">ГО «Антивоєнний Рух України» протягом всього свого існування поширювала інформацію серед молоді про Світові Війни, їх значення, наслідки для світу й України та недопущення повторення. На жаль, війна знову прийшла на нашу землю. Ми мусимо показати ворогу єдність та мужність українського народу.</h3>
+                <h3 class="txt-scnd">Злочини проти людяності, які російська армія вчиняє до нашого народу показує усьому світу, справжнє обличчя держави-терориста та важливість допомоги Україні. 
+                    <br>Разом ми закінчимо війну в Європі.</h3>
+
+            </div>
+        </div>
+    </section>
+
+    <!--About end-->
+
+    <!--Point Start-->
+
+    <section class="point">
+        <div class="wrapper">
+            <div class="point__wrapper">
+                <div class="point__info">
+                    <div class="point__title">
+                        <h2 class="point__title-txt">ПУНКТ НЕЗЛАМНОСТІ</h2>
+                    </div>
+                    <div class="point__subtitle">
+                        <p class="point__subtitle-txt">Місце твоєї безпеки під час тривалого відключення електроенергії чи тепла</p>
+                    </div>
+                    <div class="point__image">
+                        <img src="/img/point.png" alt="" class="point-img">
+                    </div>
+                    <div class="point__text">
+                        <h3>План росії – будь-що залишити жителів України без електроенергії, світла та тепла. У разі тривалого аварійного відключення електроенергії, Пункти Незламності стануть острівцем безпеки, стабільності, тепла та нашої єдності, які функціонуватимуть цілодобово і безкоштовно для тимчасового перебування.</h3>
+                        <br>
+                        <h3>Рекомендуємо вже зараз записати адреси найближчих Пунктів Незламності на випадок аварійного відключення зв’язку чи електроенергії.</h3>
+                    </div>
+                </div>
+                <div class="point__button">
+                    <button class="button ">Дивитися мапу</button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Point End-->
+
+    
+    <!--Email Start-->
+
+    <section class="email">
+        <div class="wrapper">
+            <div class="email__wrapper">
+                <form action="" class="email__form">
+                    <fieldset class="email__form-wrap">
+                        <p class="email__form-info"> 
+                            <input type="email" name="email" class="email__form-field" placeholder="Email">
+                            <button type="submit" class="email__button">Підписатись на новини</button>
+                        </p>
+                    </fieldset>
+                </form>
+                <div class="email__socialmedia">
+                    <div class="email__media-icons">
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_fb_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_telegram_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_instagram_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="email__mobile">
+        <div class="wrapper">
+            <div class="email__mobile__wrapper">
+                <form action="" class="email__mobile__form">
+                    <fieldset class="email__mobile__form-wrap">
+                        <p class="email__mobile__form-info"> 
+                            <input type="email" name="email" class="email__mobile__form-field" placeholder="Email">
+                            <button type="submit" class="email__mobile__button">Підписатись на новини</button>
+                        </p>
+                    </fieldset>
+                </form>
+                <div class="email__socialmedia">
+                    <div class="email__media-icons">
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_fb_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_telegram_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                        <a href="" class="email__social-link">
+                            <img src="/img/ic_instagram_white.svg.png" alt="Facebook" class="email__social">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Email end-->
+
+    <!--Thank start-->
+
+    <section class="thank">
+        <div class="wrapper">
+            <div class="thank__wrapper">
+                <p class="thank__text">Ми вдячні кожній компанії, підприємству та звичайним людям, які допомагають Україні з конкретними потребами</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Thank end-->
+
+    <!--Need start-->
+    <section class="need">
+        <div class="wrapper">
+            <div class="wrapper__card">
+                <div class="prev-btn"></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="cards">
+                            <div class="need__card">
+                                <div class="need__image">
+                                    <img src="/img/Borodyanka_center.jpeg.png" alt="" class="need__img">
+                                </div>
+                                <p class="need__title">Лікарня в Бахмуті</p>
+                                <p class="need__subtitle">Збір: 1 000 000 грн  </p>
+                            </div>   
+                        </div>
+                      </div>
+                      
+                    </div>  
+                </div>
+                <div class="next-btn"></div>
+            </div>
+            <a href="/pages/projects-ua.html" class="need__black-btn">
+                <button class="black-btn">Показати всі нагальні потреби</button>
+            </a>
+        </div>
+    </section>
+</body>
+<!--Needs end-->
+<!--Donation start-->
+
+<section class="donation">
+    <div class="wrapper">
+        <div class="donation__wrapper">
+            <p class="donation__text">Зробити донат через Антивоєнний рух України дуже просто – декілька кліків з будь-якої точки світу. Якщо є можливість надіслати гуманітарну допомогу – зверніться до нас за контактами, які вказані нижче.</p>
+        </div>
+    </div>
+</section>
+
+<!--Donation end-->
+
+
+<!--News start-->
+
+<section class="news">
+    <div class="wrapper">
+        <div class="news__wrapper">
+            <div class="news__title">
+                <p class="news__title-txt">ОСТАННІ НОВИНИ</p>
+            </div>
+            <div class="news__topics__grid">
+                <div class="news__topics">
+                    <p class="news__topic__data">25.11.2015</p>
+                    <a href="#!" class="news__topic-link">Заснування громадської організації <br>“Антивоєнний рух України”</a>
+                </div>
+                <div class="news__topics">
+                    <p class="news__topic__data">24.11.2022</p>
+                    <a href="#!" class="news__topic-link">Співпраця з ПриватБанк і Монобанк</a>
+                </div>
+                <div class="news__topics">
+                    <p class="news__topic__data">24.11.2022</p>
+                    <a href="#!" class="news__topic-link">Час початку роботи громадської організації</a>
+                </div>
+            </div>
+            <div class="news__more">
+                <a href="#!" class="news__more-link">Перейти до всіх новин</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--News end-->
+
+
+<!--Footer start-->
+
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__wrapper">
+            <div class="footer__image">
+                <img src="/img/icon.png" alt="icon" class="footer-img">
+            </div>
+            <div class="footer__grid">
+                <form action="" class="footer__form mobile__close">
+                    <fieldset class="footer__form-wrap">
+                        <p class="footer__form-info"> 
+                            <input type="email" name="footer" class="footer__form-field" placeholder="Email">
+                            <button type="submit" class="footer__button">Підписатись на новини</button>
+                        </p>
+                    </fieldset>
+                    <div class="footer__social">
+                        <a href="" class="footer__social-link">
+                            <img src="/img/fb-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/twt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/tg-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/inst-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/yt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        
+                    </div>
+                </form>
+                <form action="" class="email__mobile__form mobile__show">
+                    <fieldset class="email__mobile__form-wrap">
+                        <p class="email__mobile__form-info"> 
+                            <input type="email" name="email" class="email__mobile__form-field" placeholder="Email">
+                            <button type="submit" class="email__mobile__button">Підписатись на новини</button>
+                        </p>
+                    </fieldset>
+                    <div class="footer__social">
+                        <a href="" class="footer__social-link">
+                            <img src="/img/fb-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/twt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/tg-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/inst-white.png" alt="" class="footer__social-img">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="/img/yt-white.png" alt="" class="footer__social-img">
+                        </a>
+                        
+                    </div>
+                </form>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-title">
+                        <p class="contacts__title">Зв’язатися з нами</p>
+                    </div>
+                    <div class="footer__text">
+                        <p class="footer-txt">
+                            м.Київ, пр-т Науки, 60
+                        </p>
+                        <p class="footer-txt">
+                            +380639737799
+                        </p>
+                        <p class="footer-txt">
+                            antiwarmov@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__subtext">
+                <p class="footer-subtext">2022© | Privacy Note</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Footer end-->
+
+
+
+
+<!-- Swiper JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+</html>
